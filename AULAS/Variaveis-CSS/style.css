@@ -1,0 +1,40 @@
+:root {
+    --tamanhoFontePrincipal: 2em;
+    --varCorTextoPrincipal: #37ff00;
+}
+
+h1 {
+    color: var(--varCorTextoPrincipal);
+    font-size: 2em;
+}
+
+h2 {
+    color: blueviolet;
+    font-size: var(--tamanhoFontePrincipal);
+}
+
+.box_01 {
+    width: 250px;
+    height: 100px;
+    background-color: aqua;
+    transition: 3s;
+    user-select: none;
+}
+
+.box_01:hover {
+    background-color: blue;
+    color: red;
+    font-size: 2em;
+    box-shadow: 5px 5px 5px #37ff00;
+    border-radius: 10px
+}
+
+.box_02 {
+    width: 250px;
+    height: 200px;
+    transition: 3s;
+    
+}
+.box_02 :hover {
+        border: 3px solid #37ff00;
+}

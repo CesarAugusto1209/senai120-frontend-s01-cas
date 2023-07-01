@@ -1,0 +1,81 @@
+.container {
+    height: 600px;
+    width: 1000px;
+    margin: 10px;
+    background-color: aquamarine;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-areas:
+        "caixa1 caixa2 caixa3"
+        "caixa4 caixa5 caixa6"
+        "caixa7 caixa8 caixa9"
+}
+
+.botao{
+    height: 80%;
+    width: 80%;
+}
+
+.box {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    grid-area: caixa1;
+}
+.box2 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    grid-area: caixa2;
+}
+.box3 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    grid-area: caixa3;
+}
+.box4 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    grid-area: caixa4;
+}
+.box5 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    grid-area: caixa5;
+}
+.box6 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    grid-area: caixa6;
+}
+.box7 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    grid-area: caixa7;
+}
+.box8 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    grid-area: caixa8;
+}
+.box9 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    grid-area: caixa9;
+}

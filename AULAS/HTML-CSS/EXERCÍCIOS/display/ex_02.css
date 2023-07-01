@@ -1,0 +1,13 @@
+.container{
+    height: 200px;
+    width: 400px;
+    background-color: bisque;
+    display: inline-block;
+    margin: 10px 30px 100px; 
+    box-shadow: 20px 20px 30px black;
+
+}
+
+
+
+

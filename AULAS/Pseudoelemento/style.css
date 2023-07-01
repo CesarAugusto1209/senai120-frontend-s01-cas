@@ -1,0 +1,26 @@
+h1::before {
+    content: "*";
+    margin: 50px;
+}
+
+h1::after {
+    content: "@";
+}
+
+h1::first-letter {
+    color: orangered;
+}
+
+p::first-line {
+    color: aqua;
+}
+
+p::selection {
+    color: crimson;
+    background-color: gold;
+}
+
+input::placeholder {
+    font-style: italic;
+    color: chartreuse;
+}

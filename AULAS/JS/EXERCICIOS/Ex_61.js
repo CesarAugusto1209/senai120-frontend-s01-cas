@@ -1,0 +1,8 @@
+let numeros = [];
+let i = 1;
+
+while (i <= 10){
+    i++
+}
+
+console.log(numeros);

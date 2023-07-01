@@ -1,0 +1,19 @@
+/* Exercício 01 */
+li::marker {
+    content: "@";
+}
+/* Exercício 02 */
+
+div::before {
+    content: "@";
+    margin-right: 10px;
+  }
+
+  p::after {
+    content: "$";
+  }
+
+  p::selection{
+    background-color: aquamarine;
+    color: rgb(255, 0, 144);
+  }

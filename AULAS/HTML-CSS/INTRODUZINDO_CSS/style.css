@@ -1,0 +1,33 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #3393e7;
+    font-family: sans-serif;
+}
+
+h1 {
+    height: 100px;
+    width: 500px;
+    font-size: 2.5em;
+    background-color: chartreuse;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: coral;
+    font-weight: bold;
+    border: solid 3px #050505;
+    border-radius: 10px;
+}
+
+p {
+  
+    color: fuchsia;
+}
+.destaque {
+    font-size: 20px;
+    color: crimson;
+}
+
+#cabecalho {
+    font-size: 3em;
+    color: gold;
+}

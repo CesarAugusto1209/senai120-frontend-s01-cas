@@ -1,0 +1,59 @@
+.box_01 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transition: 2s;
+    margin: 200px;
+    border-radius: 20px
+}
+
+.box_01:hover {
+    transform: scale(2);
+    background-color: brown;
+    box-shadow: 5px 5px 5px #000;
+    border-radius: 20px 50px 20px 50px;
+}
+
+.box_02 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 255, 68);
+    transition: 2s;
+    margin: 200px;
+    border-radius: 20px
+}
+
+.box_02:Active {
+    transform: scale(2);
+    background-color: rgb(187, 94, 230);
+    box-shadow: 5px 5px 5px #000;
+    border-radius: 20px 50px 20px 50px;
+    
+}
+
+.box_03 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 255, 68);
+    margin: 200px;
+    border-radius: 20px
+}
+
+input:focus {
+    transform: scale(2);
+    background-color: rgb(230, 203, 94);
+    box-shadow: 5px 5px 5px #f7eaf7;
+    border-radius: 20px 50px 20px 50px;
+}
+
+.box_04 {
+    height: 200px;
+    width: 200px;
+    font-size: 1.7em;
+    background-color: rgb(255, 174, 53) ;
+    margin: 200px 200px;
+}
+
+.box_04, li:first-child {
+    color: #00ff3c; 
+}
